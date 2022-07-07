@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: #0282F9;
+  --main-bg-color: #1c1c1c;
   --primary-font-color: #464646;
   --text-lightgrey: #959595;
   --padding-top_bottom-xs: 1.25rem 0;
@@ -63,6 +64,20 @@ header .header_bottom .header_searchbar input:active {
 }
 header .header_bottom .header_searchbar span {
   height: 1.5rem;
+}
+
+main {
+  background-color: var(--main-bg-color);
+  padding: var(--padding-top_bottom-m);
+  color: #fff;
+}
+main .comic-card img {
+  width: 100%;
+  height: 12.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 footer .footer_top {
