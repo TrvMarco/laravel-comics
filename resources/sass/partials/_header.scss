@@ -14,4 +14,58 @@ header{
             }
         }
     }
+
+    .header_bottom{
+        padding: var(--padding-top_bottom-xs);
+        color: var(--primary-font-color);
+        font-size: .9375rem;
+
+        .header_logo img{
+            height: 5rem;
+        }
+
+        .header_navbar{
+            & ul{
+                display: flex;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                & li{
+                    margin: 0 .9375rem;
+
+                    &:hover{
+                        color: var(--primary-color);
+                    }
+                }
+
+                & a{
+                    text-decoration: none;
+                    color: inherit;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .header_searchbar{
+            border-bottom: 2px solid var(--primary-color);
+
+            & input{
+                border: none;
+                outline: none;
+                text-align: end;
+                font-weight: 700;
+                
+                &:active{
+                    outline: none;
+                }
+            }
+
+            & span{
+               height: 1.5rem;
+            }
+        }
+    }
+
 }
