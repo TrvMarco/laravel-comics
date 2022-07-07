@@ -66,12 +66,17 @@ header .header_bottom .header_searchbar span {
   height: 1.5rem;
 }
 
-main {
+.hero {
+  min-height: 25rem;
+  background-image: url("../img/jumbotron.jpg");
+}
+
+.comics {
   background-color: var(--main-bg-color);
   padding: var(--padding-top_bottom-m);
   color: #fff;
 }
-main .comic-card img {
+.comics .comic-card img {
   width: 100%;
   height: 12.5rem;
   -o-object-fit: cover;

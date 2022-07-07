@@ -1,4 +1,9 @@
-main{
+.hero{
+    min-height: 25rem;
+    background-image: url('../img/jumbotron.jpg');
+}
+
+.comics{
     background-color: var(--main-bg-color);
     padding: var(--padding-top_bottom-m);
     color: #fff;
