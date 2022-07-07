@@ -5,5 +5,5 @@
 @endsection
 
 @section('page-content')
-    contenuto
+    @dump($comics)
 @endsection
