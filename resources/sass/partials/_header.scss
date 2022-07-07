@@ -1,0 +1,17 @@
+header{
+    .header_top{
+        height: 1.5625rem;
+        background-color: var(--primary-color);
+        color: #fff;
+        font-size: .875rem;
+
+        p{
+            margin-left: 1.875rem;
+
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+}
