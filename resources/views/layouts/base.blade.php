@@ -11,6 +11,7 @@
 <body>
     @include('partials.header')
     <main>
+        @include('partials.hero')
         @yield('page-content')
     </main>
     @include('partials.footer')

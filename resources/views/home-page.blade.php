@@ -6,7 +6,6 @@
 
 @section('page-content')
     <main>
-        <section class="hero"></section>
         <section class="comics">
             <div class="container">
                 <div class="row gy-5">
