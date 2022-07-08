@@ -10295,6 +10295,22 @@ header .header_bottom .header_searchbar span {
      object-position: top;
 }
 
+.blue-bar {
+  height: 5rem;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.comic-price-aviab {
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+  background-color: #55BA59;
+  border: 0.0625rem solid black;
+}
+.comic-price-aviab .price-container p {
+  margin: 0;
+}
+
 footer .footer_top {
   background-image: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;

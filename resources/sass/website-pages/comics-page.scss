@@ -1,0 +1,18 @@
+.blue-bar{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.comic-price-aviab{
+    width: 100%;
+    padding: .625rem 1.25rem;
+    background-color: #55BA59;
+    border: .0625rem solid black;
+
+    .price-container{
+        p{
+            margin: 0;
+        }
+    }
+}
