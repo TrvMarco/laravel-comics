@@ -9,9 +9,9 @@
         <section class="comics">
             <div class="container">
                 <div class="row gy-5">
-                    @foreach ($comics as $comic)
+                    @foreach ($comics as $id => $comic)
                     <div class="col-2">
-                        <x-card :image="$comic['thumb']" :title="$comic['series']"/>
+                        <a class="text-decoration-none text-white" href="{{ route('fumetto', ['id' => $id]) }}"><x-card :image="$comic['thumb']" :title="$comic['series']"/></a>
                     </div>
                     @endforeach
                 </div>

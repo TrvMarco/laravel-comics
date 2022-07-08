@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
     return view('home-page', compact('comics'));
-});
+})->name('home');
 
 Route::get('comics/{id}', function ($id) {
     $comics = config('comics');
@@ -29,4 +29,4 @@ Route::get('comics/{id}', function ($id) {
 
     return view('comics-page', compact('singleComic'));
 
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+')->name('fumetto');
